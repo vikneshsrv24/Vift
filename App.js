@@ -65,7 +65,14 @@ const App = () => {
     },[endOfDay]);
 
     return (
-        <AppContainer>
+        <AppContainer>  // used to finally render the features...
+            {showModal && <EndOfDayModal onSetEndOfDay={handleEndOfDaySet}/>}
+            <HabitTracker habits={habits} onIncrement={incrementHabit}/>
+            <PieChart habits={habits} />
+            <Notes/>
 
         </AppContainer>
-    )
+    );
+};
+
+export default App;  // allows to export a single value as the deafult value for a module.
