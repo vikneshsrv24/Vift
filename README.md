@@ -2,7 +2,7 @@
 
 **Vift** is a minimalist and aesthetically designed habit-tracking application that helps you build and maintain your daily routines. With a sleek and simple interface, Vift provides an intuitive way to track your habits, visualize progress, and stay motivated—all while maintaining a calm and pleasant user experience.
 
-Development in Progress--->
+Development in Progress ---> 🎯
 
 ## **Features** ✨
 
